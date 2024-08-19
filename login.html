@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="assets/css/site_fonts.css?v=1.0" type="text/css" rel="stylesheet">
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="assets/js/all.min@fontawesome.js?v=1.0" crossorigin="anonymous"></script>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/login.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Background Video-->
+    <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="assets/mp4/bg.mp4" type="video/mp4" />
+    </video>
+    <!-- Masthead-->
+    <div class="masthead">
+        <div class="masthead-content text-white">
+            <div class="container-fluid px-4 px-lg-0">
+              <div class="row">
+                <div class="col  border-end border-secondary"><img width="250px" src="assets/img/LogoBig.png" /></div>
+                <div class="col"><img width="100px" src="assets/img/Public Security.svg" /></div>
+              </div>
+                <h1 class="lh-1 my-4 text-center">تسجيل الدخول</h1>
+                <form>
+                    <!-- ID & Password  input-->
+                    <div class="input-group-newsletter text-center">
+                        <div class="col"><input class="form-control mb-2 text-center" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="username" type="number" placeholder=" رقم الهوية " /></div>
+                        <div class="col"><input class="form-control mb-2 text-center" id="password" type="password" placeholder="  كلمة المرور " /></div>
+                        <!-- an error submitting the form-->
+                        <div class="d-none1" id="submitErrorMessage">
+                            <div class="alert alert-danger d-flex align-items-center text-center" role="alert">
+                                <div class="d-block w-100 text-center">
+                                    خطأ في تسجيل الدخول
+                                    <i class="fa-solid fa-triangle-exclamation px-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-primary col-12" id="submitButton" type="submit">تسجيل الدخول</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- support Icons-->
+    <div class="support">
+        <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
+            <a class="btn btn-dark m-3" href="#!"><i class="fa-solid fa-video"></i></a>
+            <a class="btn btn-dark m-3" href="#!"><i class="fa-solid fa-info"></i></a>
+            <a class="btn btn-dark m-3" href="#!"><i class="fa-solid fa-phone-volume"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+
+@font-face {
+    font-family: 'GE Dinar One';
+    src: url('webfonts/GEDinarOne-Medium.woff2') format('woff2'), url('webfonts/GEDinarOne-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'GE Dinar One';
+    src: url('webfonts/GEDinarOne-Light.woff2') format('woff2'), url('webfonts/GEDinarOne-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+
+
+/*DIGITAL CLOCK FONT*/
+@font-face {
+    font-family: 'digital-7';
+    src: url('webfonts/digital-7.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
