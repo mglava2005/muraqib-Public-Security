@@ -22,11 +22,10 @@
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/simple-datatable/css/simple-datatable.min.css" rel="stylesheet" >
+  <link href="assets/vendor/simple-datatable/css/simple-datatable.min.css" rel="stylesheet">
 
-
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -169,7 +168,7 @@
           <li class="dropdown"><a href="#"><span>إدارة المنصة</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="terms-of-use.html#TermsOfUse"> إدارة المستخدمين</a></li>
+              <li><a href="tables-data.html#TablesData"> إدارة المستخدمين</a></li>
               <li class="dropdown"><a href="#"><span> قائمة متفرعة</span> <i
                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
@@ -179,17 +178,17 @@
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>الخدمات الالكترونية</span> <i
-            class="bi bi-chevron-down toggle-dropdown"></i></a>
-        <ul>
-          <li><a href="#">قائمة 1</a></li>
-          <li class="dropdown"><a href="#"><span> قائمة متفرعة</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">قائمة متفرعة 1</a></li>
+              <li><a href="#">قائمة 1</a></li>
+              <li class="dropdown"><a href="#"><span> قائمة متفرعة</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">قائمة متفرعة 1</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
-        </ul>
-      </li>
           <li><a href="form-test.html#contact">اتصل بنا</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -198,115 +197,111 @@
     </div>
   </header>
 
-
   <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
-
-        <!-- Slide 1 -->
-        <div class="carousel-item active" >
-          <div class="carousel-container">
-            <div class="carousel-div-img">
-              <img class="carousel-img" src="assets/img/001.jpg">
-            </div>
-            <h2 class="animate__animated animate__fadeInDown">منصة مراقب</h2>
-            <p class="animate__animated animate__fadeInUp">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">اقرا المزيد </a>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <div class="carousel-div-img">
-              <img class="carousel-img" src="assets/img/002.jpg">
-            </div>
-            <h2 class="animate__animated animate__fadeInDown">تدشين اول منصه الكترونية</h2>
-            <p class="animate__animated animate__fadeInUp">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto"> إقرا المزيد</a>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <div class="carousel-div-img">
-              <img class="carousel-img" src="assets/img/003.jpg">
-            </div>
-            <h2 class="animate__animated animate__fadeInDown">زيار سمو الامير للقطاع</h2>
-            <p class="animate__animated animate__fadeInUp">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
-            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">اقرا المزيد </a>
-          </div>
-        </div>
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container position-relative">
+        <h1> لوحة تحكم الادارة </h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li class="current">  إدارة المنصة</li>
+          </ol>
+        </nav>
       </div>
+    </div><!-- End Page Title -->
 
-      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
-        <defs>
-          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-        </defs>
-        <g class="wave1">
-          <use xlink:href="#wave-path" x="50" y="3"></use>
-        </g>
-        <g class="wave2">
-          <use xlink:href="#wave-path" x="50" y="0"></use>
-        </g>
-        <g class="wave3">
-          <use xlink:href="#wave-path" x="50" y="9"></use>
-        </g>
-      </svg>
 
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
+    <!-- Services Section -->
+    <section id="services" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>نبذة</h2>
-        <p>ماذا عن منصة مراقب</p>
+        <h2>الإدارة</h2>
+        <p>لوحة تحكم الادراة   </p>
       </div><!-- End Section Title -->
-
+ 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <p>
-              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث ي
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>تركيب ومتابعة كاميرات المراقبة</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>دعم فني للاجهز والكاميرات</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>تدريت وتهيئة الموظفين لاستخدام البرنامج</span></li>
-            </ul>
-          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-users fa-4x" style="color: #2a5555;"></i>
+              </div>
+              <a href="tables-data.html" class="stretched-link">
+                <h3>  المستخدمين</h3>
+              </a>
+              <p>أدوات التحكم باضافة وتفعيل وحذف المستخدمين من على المنصة ومنهم الصلاحيات وازالتها </p>
+            </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث ي</p>
-            <a href="#" class="read-more"><span> قرأة المزيد</span><i class="bi bi-arrow-left"></i></a>
-          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week fa-4x" style="color: #fd7e14;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> الاعلانات </h3>
+              </a>
+              <p>التحكم بظهور وحذف وادارة الاعلانات التي تظهر على المنصة بالصفحة الرئيسية </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-text fa-4x" style="color: #20c997;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>التنبيهات </h3>
+              </a>
+              <p>التحكم بظهور وحذف وادارة التنبيهات التي تظهر على المنصة بالصفحة الرئيسية </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-regular fa-credit-card fa-4x" style="color: #df1529;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> الأخبار</h3>
+              </a>
+              <p>التحكم بظهور وحذف وادارة الأخبار التي تظهر على المنصة بالصفحة الرئيسية </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-video fa-4x" style="color: #6610f2; rotate: 180deg;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>الكاميرات </h3>
+              </a>
+              <p>تحكم كامل باضاة وحذف وصلاحيات كاميرات المراقبة وارسال تعليمات لادارة المايلستون لاتخاذها على ادارة الكاميرات ونظام الكاميرات</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-circle-info fa-4x" style="color: #f3268c;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> أسئلة شائعة</h3>
+              </a>
+              <p>الادارة والتحكم بكافة الاسئلة الشائعة عن استخدام النظام وظلبات النظام</p>
+            </div>
+          </div><!-- End Service Item -->
 
         </div>
 
       </div>
 
-    </section><!-- /About Section -->
-
- 
-
-
+    </section><!-- /Services Section -->
 
 
   </main>
@@ -317,7 +312,7 @@
       <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث ي</p>
       <div class="container">
         <div class="copyright">
-          <span>جميع الحقوق محفوظة</span> <strong class="px-1 sitename">للامن العام</strong> 
+          <span>جميع الحقوق محفوظة</span> <strong class="px-1 sitename">للامن العام</strong>
         </div>
         <div class="credits">
           تصميم <a href="#">شركة العرض المتقن</a>
@@ -327,7 +322,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -341,7 +337,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/simple-datatable/js/simple-datatable.min.js"></script>
-
 
   <!-- fontawesome -->
   <script src="assets/js/all.min@fontawesome.js"></script>

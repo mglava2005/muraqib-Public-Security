@@ -1,0 +1,198 @@
+.dtContainer {
+    background: #fff;
+    /* padding: 1rem; */
+    /* -webkit-box-shadow: 0 1px 2px rgba(56, 65, 74, .15); */
+    /* box-shadow: 0 1px 2px rgba(56, 65, 74, .15) */
+}
+
+.dtContainer h4 {
+    margin: 0;
+    margin-bottom: 1rem;
+    color: #6b7280
+}
+
+.dtContainer .headerContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* border-top: 1px solid #f3f3f3; */
+    padding: .75rem 0
+}
+
+.dtContainer .headerContainer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.dtContainer .perPageSelectorDiv {
+    font-size: 14px
+}
+
+.dtContainer select {
+    margin-right: .75rem;
+    padding: .45rem;
+    border-radius: .35rem;
+    outline: 0;
+    border: 1px solid #d9d9d9;
+    background-color: #f9f9f9
+}
+
+.dtContainer input {
+    padding: .5rem;
+    border-radius: .35rem;
+    width: 50%;
+    outline: 0;
+    border: 1px solid #d9d9d9;
+    background-color: #f9f9f9
+}
+
+.dtContainer .tableContainer {
+    overflow: auto
+}
+
+.dtContainer table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+.dtContainer thead {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1rem;
+    color: #ffffff;
+    background-color: #194d4f;
+}
+
+.dtContainer th {
+    font-weight: normal;
+    padding: .75rem;
+    white-space: nowrap;
+    text-align: right;
+    border: 2px solid #ffffff5c;
+}
+
+.dtContainer td {
+    padding: .75rem;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 15px;
+    padding-top: 1rem;
+    border: 2px solid #194d4f24;
+}
+
+.dtContainer .paginationContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 7px;
+    background-color: #194d4f29;
+    padding: 5px;
+    border: 1px solid #bcbdbd;
+}
+
+.dtContainer .paginationHelper {
+    font-size: 15px;
+    color: #000;
+    margin-left: .5rem
+}
+
+.dtContainer .next,
+.dtContainer .page,
+.dtContainer .previous {
+    display: inline-block;
+    padding: .5rem .75rem;
+    text-decoration: none;
+    background-color: #fff;
+    border-width: 1px;
+    color: #6b7280;
+    border: 1px solid #d1d5dbe5;
+    margin-left: -1px;
+    cursor: pointer;
+    line-height: 1.25
+}
+
+.dtContainer .next {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.dtContainer .previous {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dtContainer .next:disabled,
+.dtContainer .previous:disabled {
+    background-color: #dbdbdb;
+    color: #bebebe;
+    cursor: auto
+}
+
+.dtContainer .next:disabled:hover,
+.dtContainer .previous:disabled:hover {
+    background-color: #f7f7f7;
+    color: #b7b7b7
+}
+
+.dtContainer .page.active {
+    font-weight: 700;
+    cursor: default;
+    background-color: #194d4fd6;
+    color: #fff;
+}
+
+.dtContainer .next:hover,
+.dtContainer .page:hover,
+.dtContainer .previous:hover {
+    background-color: #194d4fd6;
+    color: #fff;
+}
+
+.dtContainer .sortable div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.dtContainer  svg {
+    cursor: pointer
+}
+.dtContainer thead svg {
+    width: 20px;
+}
+
+.dtContainer .sortable span {
+    margin-right: 5px
+}
+
+.dtContainer table tbody tr:nth-child(odd) {
+    background: #194d4f0f;
+}
+
+.dtContainer table tbody tr:nth-child(even) {
+    background:#00bf6338;
+}
+
+.dtContainer table tbody a {
+   font-size: 17px;
+}
