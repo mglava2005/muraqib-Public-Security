@@ -23,6 +23,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/simple-datatable/css/simple-datatable.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="assets/vendor/sweetalert2/css/sweetalert2.min.css">
 
 
     <!-- Main CSS File -->
@@ -142,7 +143,7 @@
                   <hr class="dropdown-divider">
                 </li>
                 <li class="dropdown-footer text-center">
-                  <a href="#">كافة التنبيهات</a>
+                  <a href="all-notifications.html">كافة التنبيهات</a>
                 </li>
 
               </ul><!-- End Notification Dropdown Items -->
@@ -341,6 +342,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/simple-datatable/js/simple-datatable.min.js"></script>
+  <script src="assets/vendor/sweetalert2/js/sweetalert2.all.min.js"></script>
 
 
   <!-- fontawesome -->
@@ -348,6 +350,14 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+
+Swal.fire({
+  title: "منصة مراقب",
+  text: "تأكيد دخلو المنصة بنجاح",
+  icon: "question"
+});
+  </script>
 
 </body>
 
