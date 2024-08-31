@@ -19,7 +19,7 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #ef6603; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #A6A7A9; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #060606; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -1174,28 +1174,28 @@ section,
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
-.call-to-action {
+.statistics {
   padding: 80px 0;
   position: relative;
   clip-path: inset(0);
 }
 
-.call-to-action .container {
+.statistics .container {
   position: relative;
   z-index: 3;
 }
 
-.call-to-action h3 {
+.statistics h3 {
   color: var(--default-color);
   font-size: 28px;
   font-weight: 700;
 }
 
-.call-to-action p {
+.statistics p {
   color: var(--default-color);
 }
 
-.call-to-action .cta-btn {
+.statistics .cta-btn {
   font-family: var(--heading-font);
   font-weight: 500;
   font-size: 16px;
@@ -1209,7 +1209,7 @@ section,
   color: var(--contrast-color);
 }
 
-.call-to-action .cta-btn:hover {
+.statistics .cta-btn:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
 
@@ -1368,10 +1368,13 @@ section,
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
   background-color: var(--surface-color);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 16%);
   box-sizing: content-box;
-  padding: 30px;
-  margin: 30px 15px;
+  overflow: hidden;
+  border-radius: 13px;
+  border: 1px solid #d8d8d8;
+  padding: 1px;
+  margin: 0px 15px;
   position: relative;
   height: 100%;
 }
@@ -1431,6 +1434,11 @@ section,
 
 .testimonials .swiper-wrapper {
   height: auto;
+  cursor: grab;
+}
+
+.testimonials .swiper-wrapper:active {
+  cursor: grabbing;
 }
 
 .testimonials .swiper-pagination {
@@ -1916,6 +1924,10 @@ section,
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
+}
+
+.swiper-img{
+  width: 100%;
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -3045,4 +3057,19 @@ article .status-icon svg{
  .activity .activity-item .activity-content {
   padding-left: 10px;
   padding-bottom: 5px;
+}
+
+
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
 }

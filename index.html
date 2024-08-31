@@ -28,6 +28,8 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/login.css" rel="stylesheet">
+
 </head>
 
 <body class="index-page">
@@ -271,19 +273,18 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>نبذة</h2>
-        <p>ماذا عن منصة مراقب</p>
-      </div><!-- End Section Title -->
-
+   
       <div class="container">
 
         <div class="row gy-4">
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <section id="about" class="about section">
+              <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>نبذة</h2>
+        <p>ماذا عن منصة مراقب</p>
+      </div><!-- End Section Title -->
             <p>
               هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث ي
             </p>
@@ -292,21 +293,211 @@
               <li><i class="bi bi-check2-circle"></i> <span>دعم فني للاجهز والكاميرات</span></li>
               <li><i class="bi bi-check2-circle"></i> <span>تدريت وتهيئة الموظفين لاستخدام البرنامج</span></li>
             </ul>
+          </section><!-- /About Section -->
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث ي</p>
-            <a href="#" class="read-more"><span> قرأة المزيد</span><i class="bi bi-arrow-left"></i></a>
+            
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>مراقب</h2>
+        <p>الاعلانات</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <a href="#web-app">
+                  <img src="assets/img/web_app.jpg" class="swiper-img" />
+                </a>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <a href="#tran-app">
+                  <img src="assets/img/tran-app.jpg" class="swiper-img" />
+                </a>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /About Section -->
+    
 
  
+    <!-- statistics Section -->
+    <section id="statistics" class="statistics section dark-background">
 
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+        
+          <div class="counter-container">
+            <i class="fab fa-instagram fa-3x"></i>
+            <div class="counter" data-target="12000"></div>
+            <span>Instagram Followers</span>
+          </div>
+          <div class="counter-container">
+            <i class="fab fa-youtube fa-3x"></i>
+            <div class="counter" data-target="5000"></div>
+            <span>YouTube Subscribers</span>
+          </div>
+          <div class="counter-container">
+            <i class="fab fa-facebook fa-3x"></i>
+            <div class="counter" data-target="7500"></div>
+            <span>Facebook Fans</span>
+          </div>
+        <div class="counter-container">
+            <i class="fab fa-facebook fa-3x"></i>
+            <div class="counter" data-target="100"></div>
+            <span>Facebook Fans</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /statistics Section -->
+
+
+
+    
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>الخدمات</h2>
+        <p> ابرز الخدمات    </p>
+      </div><!-- End Section Title -->
+ 
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-users fa-4x" style="color: #2a5555;"></i>
+              </div>
+              <a href="tables-data.html" class="stretched-link">
+                <h3>  المستخدمين</h3>
+              </a>
+              <p>أدوات التحكم باضافة وتفعيل وحذف المستخدمين من على المنصة ومنهم الصلاحيات وازالتها </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week fa-4x" style="color: #fd7e14;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> الاعلانات </h3>
+              </a>
+              <p>التحكم بظهور وحذف وادارة الاعلانات التي تظهر على المنصة بالصفحة الرئيسية </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-text fa-4x" style="color: #20c997;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>التنبيهات </h3>
+              </a>
+              <p>التحكم بظهور وحذف وادارة التنبيهات التي تظهر على المنصة بالصفحة الرئيسية </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-regular fa-credit-card fa-4x" style="color: #df1529;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> الأخبار</h3>
+              </a>
+              <p>التحكم بظهور وحذف وادارة الأخبار التي تظهر على المنصة بالصفحة الرئيسية </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-video fa-4x" style="color: #6610f2; rotate: 180deg;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>الكاميرات </h3>
+              </a>
+              <p>تحكم كامل باضاة وحذف وصلاحيات كاميرات المراقبة وارسال تعليمات لادارة المايلستون لاتخاذها على ادارة الكاميرات ونظام الكاميرات</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-circle-info fa-4x" style="color: #f3268c;"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> أسئلة شائعة</h3>
+              </a>
+              <p>الادارة والتحكم بكافة الاسئلة الشائعة عن استخدام النظام وظلبات النظام</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
 
 
 
@@ -351,6 +542,28 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
+
+// document.addEventListener("DOMContentLoaded", () => {
+//  function counter(id, start, end, duration) {
+//   let obj = document.getElementById(id),
+//    current = start,
+//    range = end - start,
+//    increment = end > start ? 1 : -1,
+//    step = Math.abs(Math.floor(duration / range)),
+//    timer = setInterval(() => {
+//     current += increment;
+//     obj.textContent = current;
+//     if (current == end) {
+//      clearInterval(timer);
+//     }
+//    }, step);
+//  }
+//  counter("count1", 0, 400, 3000);
+//  counter("count2", 100, 50, 2500);
+//  counter("count3", 0, 40, 3000);
+//   counter("count4", 0, 80, 3000);
+// });
+
 
 Swal.fire({
   title: "منصة مراقب",
