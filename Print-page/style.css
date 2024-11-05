@@ -1,0 +1,102 @@
+body {
+  background: #cccccc;
+}
+
+.header {
+  padding : 20px 0 20px 0;
+  margin-bottom:20px;
+  overflow :auto;
+  border-bottom : 2px solid #0095c8;
+}
+
+p {
+  margin : 0;
+}
+
+.content {
+  width: 100%;
+  padding : 10px;
+  height : 70px;
+  border-bottom : 1px solid;
+  text-align : center;
+  
+}
+table{
+  background: #fff;
+  width: 21cm;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  padding: 1.25cm;
+ /* border: 1.25cm solid #fff;*/
+  font-family: "Mallory", Arial, Verdana, Sans-serif;
+  direction: rtl;
+}
+
+thead, tbody, tbody tr, thead tr, thead tr th, thead tr th .header  {
+  width: 100%;
+  
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+select {
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+.print-btn{
+  background-color: #ef6603;
+  color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px 70px;
+  font-size: 20px;
+  width: 250px;
+  fill: #fff;
+  cursor: pointer;
+}
+
+.header p{
+  float: right;
+  margin: 0px 0px 11px 0px;
+}
+
+@media print {
+  .printbtn {
+    display :none;
+  }
+  body, page[size=A4] {
+    margin: 0;
+    box-shadow: 0;
+    background: #fff;
+  }
+table{
+  width: 100%;
+  margin: 0;
+  box-shadow: 0;
+  background: #fff;
+}
+}
